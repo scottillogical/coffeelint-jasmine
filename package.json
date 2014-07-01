@@ -1,0 +1,35 @@
+{
+  "name": "coffeelint-jasmine",
+  "version": "0.0.1",
+  "description": "linting to prevent you from commiting jasmine helpers like iit",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/coffee-script/bin/coffee vowsrunner.coffee --spec test/test_no_jasmine_annotations.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottschulthess/coffeelint-jasmine.git"
+  },
+  "keywords": [
+    "coffeelint",
+    "coffeelintrule",
+    "jasmine",
+    "coffeescript"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "peerDependencies": {
+    "coffeelint": "~1"
+  },
+  "devDependencies": {
+    "coffeelint": "~1",
+    "vows": ">=0.6.0"
+  },
+  "author": "Scott Schulthess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottschulthess/coffeelint-jasmine/issues"
+  },
+  "homepage": "https://github.com/scottschulthess/coffeelint-jasmine"
+}
