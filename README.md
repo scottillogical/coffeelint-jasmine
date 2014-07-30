@@ -6,6 +6,12 @@ prevents you from committing tests annotation as iit, ddescribe, xit, xdescribe
 
 ## Installation
 
+Install 
+  ```
+  npm install coffeelint-jasmine
+  ```
+  
+  
 Add this to your coffeelint.json
 
 
