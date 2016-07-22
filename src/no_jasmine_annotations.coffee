@@ -12,5 +12,5 @@ module.exports = class NoJasmineAnnotations
 
     lintLine : (line, lineApi) ->
         tokens = line.trim().split(" ")
-        if tokens[0] in [ 'xit', 'iit', 'ddescribe', 'xdescribe' ]
+        if tokens[0] in [ 'xit', 'iit', 'fit', 'ddescribe', 'xdescribe', 'fdescribe' ]
             true
